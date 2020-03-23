@@ -1,0 +1,34 @@
+#Lists
+user:
+- bob
+- anzd
+- read
+
+# Dictionary
+user:
+  name: bob
+  job: enginner
+  salary: 100k
+
+# Config like
+include: |
+  text text
+  souce < souce.txt
+
+fold_newline: >
+  type some text
+  more text
+  last of text
+
+[] {} : > | 
+
+
+#Variables
+"{{ var_name  }}"
+
+
+
+become: yes -> true
+        no -> false
+
+version: "1.0" unless -> 1

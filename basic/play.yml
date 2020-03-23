@@ -1,0 +1,12 @@
+--- # play example for ansible linux academy
+- hosts: localhost
+  become: yes
+  tasks:
+    - name: install software
+      apt:
+        name: elinks
+        state: latest
+    - name: installling git
+      apt:
+        name: git
+        state: latest
