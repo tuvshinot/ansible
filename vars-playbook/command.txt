@@ -1,0 +1,1 @@
+ansbile-playbook -i my-inventory playbook.yml -e @variables.yml
