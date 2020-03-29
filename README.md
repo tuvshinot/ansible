@@ -1,2 +1,1 @@
-# ansible
-Ansible for controlling remote hosts auto
+Ansible, jenkins, gradle etc for controlling remote hosts auto.
